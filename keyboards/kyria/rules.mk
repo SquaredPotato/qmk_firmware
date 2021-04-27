@@ -1,5 +1,7 @@
 # MCU name
 MCU = atmega32u4
+#MCU = STM32F303
+#BOARD = QMK_PROTON_C
 
 # Bootloader selection
 #   Teensy       halfkay
@@ -9,7 +11,7 @@ MCU = atmega32u4
 #   QMK DFU      qmk-dfu
 #   ATmega32A    bootloadHID
 #   ATmega328P   USBasp
-BOOTLOADER = atmel-dfu
+# BOOTLOADER = atmel-dfu
 
 # Build Options
 #   change yes to no to disable
@@ -32,3 +34,4 @@ SPLIT_KEYBOARD = yes       # Split common
 LTO_ENABLE = yes
 
 DEFAULT_FOLDER = kyria/rev1
+CTPC = yes

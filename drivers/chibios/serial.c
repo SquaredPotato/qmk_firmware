@@ -9,9 +9,9 @@
 #include <hal.h>
 
 // TODO: resolve/remove build warnings
-#if defined(RGBLIGHT_ENABLE) && defined(RGBLED_SPLIT) && defined(PROTOCOL_CHIBIOS) && defined(WS2812_DRIVER_BITBANG)
-#    warning "RGBLED_SPLIT not supported with bitbang WS2812 driver"
-#endif
+// #if defined(RGBLIGHT_ENABLE) && defined(RGBLED_SPLIT) && defined(PROTOCOL_CHIBIOS) && defined(WS2812_DRIVER_BITBANG)
+// #    warning "RGBLED_SPLIT not supported with bitbang WS2812 driver"
+// #endif
 
 // default wait implementation cannot be called within interrupt
 //   this method seems to be more accurate than GPT timers
